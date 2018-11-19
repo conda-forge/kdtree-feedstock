@@ -1,13 +1,13 @@
 {% set name = "kdtree" %}
-{% set version = "0.16" %}
+{% set version = "0.12" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 386df6c7816a05e0fab974e3035df944f99ef68b5615f4a416771391e33d7534
+  url: https://files.pythonhosted.org/packages/e5/11/e1de508742dab41d334ac636ad3477ef5bf61f23a455feca7979d953e695/kdtree-0.12.tar.gz
+  sha256: 2ff01256177884945a8b25316d86f9234849276b3b425f750aac95eff6830d79
 
 build:
   noarch: python

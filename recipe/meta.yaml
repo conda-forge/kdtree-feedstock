@@ -1,5 +1,5 @@
 {% set name = "kdtree" %}
-{% set version = "0.17" %}
+{% set version = "1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9ea2052758fa800582d80e7612199216202b3a55bcf9da8dd1777791a39dc278
+  sha256: 583d22fc4281fc2764568b16bb5860a3d4518d3b456b03539b0a96b8f9a60f65
 
 build:
   noarch: python
